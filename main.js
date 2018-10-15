@@ -2,6 +2,7 @@
 
 $(document).ready(function () {
     var player = 1;
+    var $square = $(".square");
 
     $(".square").on("click", function (event) {
         var squareSelected = $(this);
@@ -13,7 +14,10 @@ $(document).ready(function () {
                 squareSelected.addClass("fas fa-times");
                 if (checkIfPlayerWon("fas fa-times")) {
                     window.setTimeout(function () {
-                        alert("Congrats! Player " + player + " has won!")
+                        alert("Congrats! Player X has won!")
+                        for (var i = 0; i < $square.length; i++) {
+                            $square.eq(i).removeClass("fas fa-times far fa-circle");
+                        }
                     }, 200)
 
                 } else {
@@ -23,7 +27,10 @@ $(document).ready(function () {
                 squareSelected.addClass("far fa-circle");
                 if (checkIfPlayerWon("far fa-circle")) {
                     window.setTimeout(function () {
-                        alert("Congrats! Player " + player + " has won!")
+                        alert("Congrats! Player O has won!")
+                        for (var i = 0; i < $square.length; i++) {
+                            $square.eq(i).removeClass("far fa-circle fas fa-times");
+                        }
                     }, 200)
 
                 } else {
