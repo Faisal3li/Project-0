@@ -111,7 +111,7 @@
   -webkit-animation-name: flash;
   animation-name: flash;
   animation-iteration-count: infinite;
-  animation-duration: 2.5s;
+  animation-duration: 1s;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
