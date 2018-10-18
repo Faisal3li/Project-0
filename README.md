@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-Board games have been played in most cultures and societies throughout centuries. Here I present to you a board game called _Tic-Tac-Toe_. We have no idea who created the original game. An early alternative of Tic-tac-toe was played in the Roman Empire, around the first century BC. It was called Terni Lapilli.
+Board games have been played in most cultures and societies throughout centuries. Here I present to you a board game called _Tic-Tac-Toe_.It's a simple game, where the competitors have to use diffrent strategies to get three in a row either vertically, horizontally, or even diagonally. We have no idea who created the original game. An early alternative of Tic-tac-toe was played in the Roman Empire, around the first century BC. It was called Terni Lapilli.
 
 ![Tic-Tac-Toe](https://images.zgallerie.com/is/image/ZGallerie/hero/tic-tac-toe-game-black-silver-181269802.jpg)
 
