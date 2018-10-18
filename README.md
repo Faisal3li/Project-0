@@ -26,5 +26,6 @@ I would really love to finish my game with a few more quirks like: Add names to 
 - Ali S
 - Jaafar Abdullah
 - Sami
+- Sultan Al-Samaani
 - [RC Academy](https://www.youtube.com/watch?v=Pbuc-YA6CUk)
 - [Ben Townsend](https://www.youtube.com/watch?v=o22gTp1Fob0)
